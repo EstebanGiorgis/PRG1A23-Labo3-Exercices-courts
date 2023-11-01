@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -10,6 +11,27 @@ using namespace std;
 //
 // Vous pouvez uniquement utiliser la méthode length() et les
 // opérateurs [] et += de la classe string.
+
+string sous_chaine(string str, int pos, int len){
+    string resultat;
+    int taille_str = str.length();
+    int compteur = 0;
+
+    if(len>taille_str){
+        len = taille_str;
+    }
+    if(pos>taille_str){
+        return "";
+    }
+
+    for(int i = pos;compteur<len ; ++i){
+
+        resultat+=str[i];
+        compteur++;
+    }
+
+    return resultat;
+}
 
 int main() {
 

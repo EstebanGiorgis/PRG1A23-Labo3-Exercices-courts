@@ -7,6 +7,13 @@ using namespace std;
 // 1'000'000'000'000
 //
 
+
+long long somme_modulo_mille_milliards(long long nbr1, long long nbr2){
+
+    return (nbr1 + nbr2) % 1000000000000;
+}
+
+
 int main() {
    cout << somme_modulo_mille_milliards(2,-3) << endl;
    // affiche -1

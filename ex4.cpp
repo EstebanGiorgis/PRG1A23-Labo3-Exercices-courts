@@ -16,6 +16,21 @@ using namespace std;
 //Essayez encore : 12
 //Merci, vous avez entre 12
 
+
+int lire_multiple_de(int m){
+
+    int entier;
+    cin >> entier;
+
+    while(entier % m != 0){
+        cout << "Essayez encore : ";
+        cin >> entier;
+    }
+
+    return entier;
+}
+
+
 int main() {
 
    int n = lire_multiple_de(3);

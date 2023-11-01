@@ -29,4 +29,23 @@ int main() {
       }
       cout << endl;
    }
+
+
+   /*
+     int n;
+     cin >> n;
+     cin.ignore(numeric_limits<streamsize>::max(),'\n');
+
+     if(n==1){
+	cout << "13" << endl;
+     }else if(n==2){
+	cout << "2" << endl;
+     }else if(n==3){
+	cout << "3" << endl;
+     }else if(n==4){
+	cout << 4 << endl;
+     }else{
+	cout << "D" << endl;
+     }
+    */
 }
