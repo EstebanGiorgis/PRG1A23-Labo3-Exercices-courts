@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 // ecrire la fonction en_base(n,b) qui retourne sous forme
